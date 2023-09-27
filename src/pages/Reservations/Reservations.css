@@ -1,0 +1,64 @@
+@import url('../../styles/vars.css');
+
+.reservation {
+  height: calc(100vh - 96px - 266px);
+  width: 100vw;
+  max-width: 65rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation-card {
+  background: var(--color-yellow);
+  border-radius: var(--radius-l);
+  padding: 2rem;
+  width: 50%;
+  position: absolute;
+  top: 1%;
+  left: 20%;
+  margin:8rem 0 ;
+}
+
+.reservation-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--color-green);
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .reservation {
+    height: 100vh;
+    width: 100vw;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .reservation-card {
+    border-radius: var(--radius-l);
+    padding: 2rem;
+    width: 80%;
+    top: 1%;
+    left: 1rem;
+    margin-top:5rem;
+    margin-bottom:0;
+  }
+
+  .reservation-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--color-green);
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,10 @@
+:root {
+  --color-green: #495e57;
+  --color-yellow: #f4ce14;
+  --color-orange: #ee9972;
+  --font-sans: 'Karla', sans-serif;
+  --font-serif: 'Markazi Text', serif;
+  --radius-l: 1rem;
+  --radius-m: 0.5rem;
+  --radius-s: 0.375rem;
+}

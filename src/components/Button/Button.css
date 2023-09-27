@@ -1,0 +1,22 @@
+@import url('../../styles/vars.css');
+
+.button {
+  background: var(--color-yellow);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-m);
+  color: var(--color-green);
+  font-weight: bold;
+  border: 0.1875rem solid var(--color-yellow);
+  font-size: 1em;
+  transition: 2ms ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover{
+  transform: scale(1.1);
+}
+
+.button:active {
+  background-color: var(--color-green);
+  color: white;
+}

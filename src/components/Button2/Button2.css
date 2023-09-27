@@ -1,0 +1,23 @@
+@import url('../../styles/vars.css');
+
+
+
+.button2 {
+  background: var(--color-green);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-m);
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+
+.button2:hover{
+  transform: scale(1.1);
+}
+
+.button2.button2:hover {
+  background-color: var(--color-green);
+  color: white;
+}
