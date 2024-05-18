@@ -97,3 +97,15 @@ p {
     grid-area: info;
   }
 }
+
+@media screen and (max-width: 450px) {
+
+  .hero {
+    height: 100%;
+    padding: 0 .3rem;
+    display: block;
+    align-items: start;
+    grid-column-gap: 2rem;
+    max-width: 45rem;
+  }
+}
